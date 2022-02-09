@@ -1,0 +1,70 @@
+:root{
+    --blanco:#fff;
+    --color-boton:#FF949C;
+    --color-cuerpo:#FBC7D4;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-boton);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 5px 25px rgba(0, 0,0,0.05);
+}
+.logo{
+    width: 2%;
+}
+.lista{
+    display: flex;
+    list-style: none;
+}
+a{
+    margin-left: 8rem;
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+body{
+    background-color: var(--color-boton);
+}
+.Nelly-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.Nelly{
+    max-width: 120rem;
+    margin: auto;
+
+}
+.Nelly-contenedor{
+    position: relative;
+    left: 3rem;
+    padding: 4rem
+}
+.Nelly-texto{
+    font-size: 4rem;
+    color: var(--blanco);
+    margin-bottom: 2rem;
+}
+.btn{
+    text-decoration: none;
+    color: var(--blanco);
+    background-color: var(--color-cuerpo);
+    display: inline-block;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    margin: 0;
+}
