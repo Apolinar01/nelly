@@ -35,16 +35,6 @@
     box-shadow: 0 5px 25px rgba(0, 0,0,0.05);
 }
 
-
-
-
-
-
-
-
-
-
-
 .logo{
     width: 2%;
 }
@@ -427,6 +417,6 @@ img{
 
 @media (max-width:575px) {
     img{
-        width:37rem
+        width:32rem
     }
 }
