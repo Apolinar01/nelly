@@ -391,7 +391,7 @@ img{
 
 }
 
-@media (max-width:575px) {
+@media (max-width:950px) {
     img{
         width:32rem
     }
