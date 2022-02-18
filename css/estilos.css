@@ -68,7 +68,7 @@ body{
     padding: 4rem
 }
 .Nelly-texto{
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--blanco);
     margin-bottom: 2rem;
 }
@@ -178,7 +178,7 @@ li{
 
 
 img{
-    max-width:32rem ;
+    max-width:62rem ;
     vertical-align: middle;
 }
 .portfolio-section{
