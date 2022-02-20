@@ -13,25 +13,34 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="svg/logo.svg" alt="Nelly-logo" />
-      <nav>
-        <ul class="lista">
-          <li><a href=""></a></li>
-          <li><a href="" class="prueba">Hola</a></li>
-          <li><a href=""  class="prueba">Sobre nosotros</a></li>
-          <li><a href=""  class="prueba">Contacto</a></li>
-          <li>
-            
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="row align-item-center justify-content-between">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.jpg" alt="" class="logo"></a>
+          </div>
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+     
     </header>
 
     <section class="Nelly">
       <div class="Nelly-grid">
         <div class="Nelly-contenedor">
           <p class="Nelly-texto" id="Nelly-texto">
-            Si te gusta el helado, ¿por qué detenerte en una cucharada? Toma dos, toma tres. Demasiado nunca es suficiente
+            Si te gusta el helado, ¿por qué detenerte en una cucharada? Toma
+            dos, toma tres. Demasiado nunca es suficiente
           </p>
           <a class="btn" href="" id="btn">Mostrar Productos</a>
         </div>
@@ -41,7 +50,7 @@
       </div>
     </section>
 
-    <main>
+    <main class="fade-out">
       <section class="portfolio-section sec-padding" id="portfolio">
         <div class="container">
           <div class="row">
@@ -464,28 +473,48 @@
           </div>
         </div>
       </section>
-
-      <div class="portfolio-popup">
-        <div class="pp-inner">
-          <div class="pp-content">
-            <div class="pp-header">
-              <button type="button" class="btn pp-close">
-                <i class="fas fa-times"></i>
-              </button>
-              <div class="pp-thumbnail">
-                <img src="" class="img-emergente" alt="" />
-              </div>
-              <h3>ddddd</h3>
+    </main>
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="bx bx-window-close"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="" class="img-emergente" alt="" />
             </div>
-            <div class="pp-body">
-              <h1>Hola</h1>
-            </div>
+            <h3>ddddd</h3>
+          </div>
+          <div class="pp-body">
+            <h1>Hola</h1>
           </div>
         </div>
       </div>
-    </main>
-    
+    </div>
 
+    <footer>
+      <div class="container-footer">
+        <div class="logo-footer">
+          <img src="img/logo.jpg" alt="" class="imagen-footer" />
+        </div>
+        <div class="sobre-nosotros">
+          <h3>Sobre Nosotros</h3>
+          <div class="sobre-nosotros-parrafo">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+            reiciendis iusto voluptatem, aliquam ipsa atque, alias ipsum dolor
+            dolorem corporis inventore rem in? Cupiditate qui, ipsa explicabo
+            eius impedit quod?
+          </div>
+        </div>
+       
+      </div>
+      <div class="derechos-reservados">
+        <p>2021 Nelly-todos los derechos reservados</p>
+      </div>
+
+    </footer>
+    <script src="js/scrollReveal.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

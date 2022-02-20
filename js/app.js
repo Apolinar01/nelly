@@ -1,3 +1,5 @@
+
+
 document.addEventListener("click",(e)=>{
     if (e.target.classList.contains("view-project-btn")) {
         togglePortfolioPopup();
@@ -33,4 +35,18 @@ function portfolioItemDetails(portfolioItem){
 }
 
 
+window.sr = ScrollReveal();
 
+sr.reveal(".Nelly",{
+    duration:3000,
+    origin:'bottom',
+    distance:'-100px'
+});
+
+
+
+sr.reveal(".portfolio-section",{
+    duration:4500,
+    origin:'left',
+    distance:'-100px'
+});
