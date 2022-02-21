@@ -20,6 +20,7 @@
     padding: 0;
     margin: 0;
     outline: none;
+    font-family: poppins;
 }
 ::before,::after{
     box-sizing: border-box;
@@ -131,31 +132,7 @@ a{
 .nav-toggler.active span::after{
 	transform: rotate(135deg);
 }
-@media(max-width:991px){
-    .nav-toggler{
-        display: block;
-    }
-    .header .nav{
-        width: 100%;
-        padding: 0;
-        max-height: 0rem;
-        overflow: hidden;
-        visibility: hidden;
-        transition: all 0.5s ease;
-    }
-    .header .nav.open{
-        visibility: visible;
-    }
-    .header .nav ul{
-        padding: 0.75rem  0.938rem 0;
-        margin-top:0.75rem ;
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .header .nav ul li{
-        display: block;
-        margin: 0;
-    }
-}
+
 body{
     background-color: var(--color-cuerpo);
 }
@@ -569,7 +546,7 @@ h3{
     .Nelly-contenedor{
         left: 1rem;
         padding:1rem;
-        margin-top: 2rem;
+        margin-top: 7rem;
     }
     .Nelly-texto{
         font-size: 3rem;
@@ -604,7 +581,50 @@ h3{
     right: -0.5rem;
     top: -0.5rem;
     }
-
+    .contact-info{
+        order: -1;
+        margin-bottom:0.938rem;
+    }
+    .contact-info-item{
+        padding: 0;
+    }
+    .correo{
+        max-width: 80rem;
+    }
+    .row{
+        flex-direction: column;
+        
+    }
+   
+}
+@media(max-width:991px){
+    .nav-toggler{
+        display: block;
+        margin-right: -13.062rem;
+    }
+    .header .nav{
+        width: 100%;
+        padding: 0;
+        max-height: 0rem;
+        overflow: hidden;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .header .nav.open{
+        visibility: visible;
+    }
+    .header .nav ul{
+        padding: 0.75rem  0.938rem 0;
+        margin-top:0.75rem ;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .header .nav ul li{
+        display: block;
+        margin: 0;
+    }
+    .header .logo{
+    margin-left: -8rem;
+}
 }
 
 @media (max-width:575px) {
